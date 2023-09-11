@@ -40,9 +40,10 @@ const about = () => {
             </div>
 
             <p>
-            I am currently a student at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a> majoring in Computer Science. I am also an undergrad research assistant focusing on 
-            software engineering for my team, a learning consultant helping with classroom technology and one of the co-leaders of the web development club at Auburn University. I have a great interest in software development, especially in web and mobile,
-            development, that requires both creativity and problem solving. I am also interested in data science and artificial intelligence.
+            I am a senior in Computer Science at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I currently work as an undergraduate research assistant for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center . Additionally, I serve as a co-leader of the Auburn 
+            University Web Development Club. My passion lies in software development, particularly in web and mobile
+             applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in 
+             data science and artificial intelligence.
             </p>
             {"Here are some technologies I have been working with:"}
               <ul className="tech-stack">
@@ -54,6 +55,11 @@ const about = () => {
                   );
                 })}
               </ul>
+
+              <p>
+                Outside of work I am interested in following the developments of science & technology. I also enjoy 
+                working out, watching sports, cooking & One Piece.
+              </p>
 
 
           </div>

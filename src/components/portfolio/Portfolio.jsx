@@ -24,6 +24,13 @@ const data = [
     title: 'Store Management System',
     desc: 'Developed a store management system using Java, Java Swing for the GUI and SQLite for the database.',
     github: 'https://github.com/nnamdixobi/Store-Management-System'
+  },
+  {
+    id: 3,
+    //image: IMG2,
+    title: 'Web Server and Microservices',
+    desc: 'Designed and implemented an enhanced online shopping system with a RESTful web server and integrated microservices. Utilized Java for server-side development, SQLite for database management, and Gson for JSON operations.',
+    github: 'https://github.com/nnamdixobi/Webserver-and-Microservices'
   }
 ]
 

@@ -6,6 +6,14 @@ header {
 
 }
 
+.me {
+  transition: var(--transition);
+}
+
+.me:hover {
+  transform: translateY(-5px); /* Move the button up by 5 pixels */
+}
+
 
 
 .header__container {

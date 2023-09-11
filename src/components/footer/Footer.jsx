@@ -8,7 +8,7 @@ const Footer = () => {
     
     <div id="footer">
     <div className="ending-credits">
-      <div>Built and designed by Nnamdi Ikenna-Obi. </div>
+      <div>Developed and designed by Nnamdi Ikenna-Obi. </div>
       <div>All rights reserved. ©</div>
     </div>
   </div> 
