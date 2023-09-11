@@ -43,11 +43,11 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <p>{desc}</p>
                   <div className="portfolio__item-cta">
-                    <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>
+                    <a href={github} className='btn' target='_blank' rel="noreferrer">
                       Github
                     </a>
                     {demo && demo.trim() !== '' && (
-                      <a href={demo} className='btn' target='_blank' rel='noopener noreferrer'>
+                      <a href={demo} className='btn' target='_blank' rel="noreferrer">
                         Live Demo
                       </a>
                     )}
