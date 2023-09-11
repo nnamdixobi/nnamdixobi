@@ -1,0 +1,198 @@
+
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow:hidden;
+
+}
+
+
+
+.header__container {
+  text-align: left;
+  height: 100%;
+  position: relative;
+  left:15%
+}
+
+/* ==================== CTA ==================== */
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: left;
+  transition: var(--transition);
+}
+
+.cta:hover {
+  transform: translateY(-5px); /* Move the button up by 5 pixels */
+}
+/* ==================== SOCIALS ==================== */
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.8rem;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 3rem;
+  margin-right: 3rem;
+
+}
+
+
+.social {
+  color: var(--color-primary);
+    transition: var(--transition);
+   font-size: 24px;
+}
+
+
+
+
+.social:hover {
+  /* Styles for when the button is hovered */
+  color: #2980b9;
+  transform: translateY(-5px); /* Move the button up by 5 pixels */
+  
+}
+
+
+
+
+/* ==================== ME ==================== */
+/*.me {
+  background: linear-gradient(var (--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position:absolute;
+  left:calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius:12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+*/
+
+.me {
+    padding-left: 40px;
+    position: absolute;
+  
+}
+
+.me img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: -150px;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  border: none;
+}
+
+
+/*=====================  Media Queries (Medium Screen)   ====================*/
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+    padding-top: 7rem;
+    overflow: hidden;
+  }
+ 
+  .header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    left:0%;
+  }
+
+  .cta {
+    justify-content: center;
+    margin-top: 2.5rem; 
+    display: flex;
+  }
+
+  .me {
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+  
+}
+
+.me img {
+ margin: auto;
+ display: block;
+  
+}
+
+ .socials {
+  bottom: 7rem;
+  margin-right: 2rem;
+
+ }
+
+
+
+}
+
+
+/*=====================  Media Queries (Small Screen)   ====================*/
+@media screen and (max-width: 600px) {
+  
+  header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+  }
+ 
+  .header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    left:0%;
+  }
+
+  .cta {
+    justify-content: center;
+    margin-top: 1rem; /* Adjust margin as needed */
+  }
+
+  .me {
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  position: absolute;
+  align-items: center;
+  margin: auto;
+  display: block;
+  left: calc(50% - 11rem);
+
+}
+
+.me img {
+ margin: auto;
+ display: block;
+  
+}
+
+.socials {
+  bottom: 7rem;
+  margin-right: 0.4rem;
+
+}
+
+
+  
+
+
+
+  
+}
+
+
+
+
+
+  
+
+
