@@ -1,21 +1,19 @@
 {
-  "name": "react-portfolio",
+  "name": "react-portfolio-website-1",
+  "homepage": "https://egattor.com/rp2447",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.11.0",
-    "react-scripts": "5.0.1",
-    "react-typist": "^2.0.5",
+    "react-icons": "^4.3.1",
+    "react-scripts": "5.0.0",
+    "swiper": "^8.0.6",
     "web-vitals": "^2.1.4"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,11 +33,6 @@
       "not dead",
       "not op_mini all"
     ],
-
-    "engines": {
-      "node": "14.x",
-      "npm": "7.x"
-    },
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
