@@ -15,7 +15,7 @@ const data = [
     //image: IMG1,
     title: 'nnamdixobi',
     desc: 'Developed a portfolio website using HTML, CSS, JavaScript & the React JS library.',
-    github: 'https://github.com',
+    github: 'https://github.com/nnamdixobi/nnamdixobi',
     demo: 'nnamdixobi.com'
   },
   {
