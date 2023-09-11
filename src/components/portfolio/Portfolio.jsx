@@ -16,7 +16,7 @@ const data = [
     title: 'nnamdixobi',
     desc: 'Developed a portfolio website using HTML, CSS, JavaScript & the React JS library.',
     github: 'https://github.com/nnamdixobi/nnamdixobi',
-    demo: 'nnamdixobi.com'
+    demo: 'https://nnamdixobi.com/'
   },
   {
     id: 2,
