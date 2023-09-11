@@ -21,11 +21,17 @@ nav a {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    transition: transform 0.2s ease-in-out;
 }
 
 nav a:hover {
-    background: var(--color-hv);
-    color: antiquewhite;
     transform: translateY(-5px); /* Move the button up by 5 pixels */
 }
+
+nav a.active {
+    background: var(--color-hv);
+    color: antiquewhite;
+  }
+
+  
 

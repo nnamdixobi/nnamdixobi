@@ -58,7 +58,7 @@ const about = () => {
 
               <p>
                 Outside of work I am interested in following the developments of science & technology. I also enjoy 
-                working out, watching sports, cooking & One Piece.
+                working out, watching sports, music & one piece.
               </p>
 
 

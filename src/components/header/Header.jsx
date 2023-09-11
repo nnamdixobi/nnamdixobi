@@ -7,7 +7,7 @@ import Socials from './Socials'
 
 export const Header = () => {
   return (
-    <header>  
+    <header id = "home">  
       <div className="container header__container">
         <h4>Hello I'm</h4>
         
