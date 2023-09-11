@@ -1,12 +1,12 @@
 import React from 'react'
 import './about.css'
-import headshot from '../../assets/headshot.jpg'
+import image from '../../assets/image.jpg'
 import FadeInSection from '../FadeInSection'
 
 const about = () => {
   const tech_stack = [
     "Python",
-    "Javascript ES6+",
+    "Javascript",
     "React.js",
     "HTML & CSS",
     "Java",
@@ -24,7 +24,7 @@ const about = () => {
 
         <div className = "about__me">
           <div className="about__me-image">
-            <img src = {headshot} alt = "me" />
+            <img src = {image} alt = "me" />
 
           </div>
 
@@ -40,7 +40,7 @@ const about = () => {
             </div>
 
             <p>
-            I am a senior in Computer Science at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I currently work as an undergraduate research assistant for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center . Additionally, I serve as a co-leader of the Auburn 
+            I am a senior in Computer Science at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I currently work as an undergraduate research assistant for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center. Additionally, I serve as a co-leader of the Auburn 
             University Web Development Club. My passion lies in software development, particularly in web and mobile
              applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in 
              data science and artificial intelligence.
