@@ -3,7 +3,6 @@ import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
 import {MdComputer} from 'react-icons/md'
-import {MdConnectWithoutContact} from 'react-icons/md'
 import {BsPersonWorkspace} from 'react-icons/bs'
 
 export const Nav = () => {
