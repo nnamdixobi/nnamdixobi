@@ -22,6 +22,7 @@ export const Header = () => {
         <img src = {headshot} alt = " " />
 
         </div>
+
       </div>
 </header>
     

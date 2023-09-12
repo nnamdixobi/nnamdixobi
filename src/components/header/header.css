@@ -1,6 +1,6 @@
 
 header {
-  height: 80vh;
+  height: 77vh;
   padding-top: 7rem;
   overflow:hidden;
 
@@ -66,6 +66,7 @@ header {
   transform: translateY(-5px); /* Move the button up by 5 pixels */
   
 }
+
 
 
 
@@ -150,7 +151,7 @@ header {
 @media screen and (max-width: 600px) {
   
   header {
-    height: 85vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
   }
