@@ -1,13 +1,8 @@
 import React from 'react'
-import './portfolio.css'
-//import IMG1 from '../../assets/portfolio1.jpg'
-//import IMG2 from '../../assets/portfolio2.jpg'
-//import IMG3 from '../../assets/portfolio3.jpg'
-//import IMG4 from '../../assets/portfolio4.jpg'
-//import IMG5 from '../../assets/portfolio5.png'
-//import IMG6 from '../../assets/portfolio6.jpg'
-
-// DO NOT USE THE IMAGES IN PRODUCTION
+import './projects.css'
+//import IMG1 from '../../assets/project1.jpg'
+//import IMG2 from '../../assets/project2.jpg'
+//import IMG3 from '../../assets/project3.jpg'
 
 const data = [
   {
@@ -35,7 +30,7 @@ const data = [
 ]
 
 
-const Portfolio = () => {
+const Projects = () => {
     return (
         <section id='portfolio'>
           <h2>Projects</h2>
@@ -67,4 +62,4 @@ const Portfolio = () => {
       );
     };
     
-    export default Portfolio;
+    export default Projects;

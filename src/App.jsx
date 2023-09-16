@@ -4,7 +4,7 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
-import Portfolio from './components/portfolio/Portfolio'
+import Projects from './components/projects/Projects'
 import Footer from './components/footer/Footer'
 
 // Define a functional component called 'App'
@@ -19,7 +19,7 @@ const App = () => {
     <Nav />
     <About />
     <Experience />
-    <Portfolio />
+    <Projects />
     <Footer />
 
     
