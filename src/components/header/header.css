@@ -36,6 +36,8 @@ header {
 .cta:hover {
   transform: translateY(-5px); /* Move the button up by 5 pixels */
 }
+
+
 /* ==================== SOCIALS ==================== */
 .socials {
   display: flex;
@@ -55,8 +57,17 @@ header {
   color: var(--color-primary);
     transition: var(--transition);
    font-size: 24px;
-}
-
+   animation: moveUpDown 2s infinite alternate;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Start position */
+    }
+    100% {
+      transform: translateY(-20px); /* End position */
+    }
+  }
 
 
 
