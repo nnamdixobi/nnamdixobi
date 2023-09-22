@@ -22,10 +22,18 @@ const data = [
   },
   {
     id: 3,
-    //image: IMG2,
+    //image: IMG3,
     title: 'Web Server and Microservices',
     desc: 'Designed and implemented an enhanced online shopping system with a RESTful web server and integrated microservices. Utilized Java for server-side development, SQLite for database management, and Gson for JSON operations.',
     github: 'https://github.com/nnamdixobi/Webserver-and-Microservices'
+  },
+  {
+    id: 4,
+    //image: IMG4,
+    title: 'Astronomy Picture Of The Day (APOD) Website',
+    desc: 'Revamped the NASA APOD website by Retrieving and displaying the APOD from NASA’s open APOD API using JavaScript, HTML, and CSS.',
+    github: 'https://github.com/nnamdixobi/Web-Dev-Club/tree/apod',
+    demo: 'https://nnamdixobis-apod.netlify.app/'
   }
 ]
 
