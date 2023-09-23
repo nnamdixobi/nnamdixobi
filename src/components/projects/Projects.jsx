@@ -31,7 +31,7 @@ const data = [
     id: 4,
     //image: IMG4,
     title: 'Astronomy Picture Of The Day (APOD) Website',
-    desc: 'Revamped the NASA APOD website by Retrieving and displaying the APOD from NASA’s open APOD API using JavaScript, HTML, and CSS.',
+    desc: 'Enhanced NASA’s Astronomy Picture of the Day (APOD) website by integrating their open API with JavaScript, offering users real time access to captivating astronomical content.',
     github: 'https://github.com/nnamdixobi/Web-Dev-Club/tree/apod',
     demo: 'https://nnamdixobis-apod.netlify.app/'
   }
