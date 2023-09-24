@@ -8,11 +8,12 @@ const about = () => {
     "Python",
     "Javascript",
     "React.js",
+    "Node.js",
     "HTML & CSS",
-    "Java",
-    "C++",
     "SQL",
-    "SQLite"
+    "Java",
+    "C++"
+    
   ];
 
   return (
@@ -58,7 +59,7 @@ const about = () => {
 
               <p>
                 Outside of work I am interested in following the developments of science & technology. I also enjoy 
-                working out, watching sports, music & one piece.
+                working out, watching sports, music & anime, especially one piece.
               </p>
 
 
