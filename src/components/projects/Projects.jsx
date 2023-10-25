@@ -34,40 +34,50 @@ const data = [
     desc: 'Enhanced NASA’s Astronomy Picture of the Day (APOD) website by integrating their open API with JavaScript, offering users real time access to captivating astronomical content.',
     github: 'https://github.com/nnamdixobi/Web-Dev-Club/tree/apod',
     demo: 'https://nnamdixobis-apod.netlify.app/'
+  },
+  {
+    id: 5,
+    //image: IMG4,
+    title: "Nnamdi's Chat Room",
+    desc: 'Developed a chat room using React JS and Firebase for authentication and data storage ',
+    demo: 'https://nnamdis-chat-room.netlify.app/'
   }
 ]
 
 
 const Projects = () => {
-    return (
-        <section id='portfolio'>
-          <h2>Projects</h2>
-    
-          <div className="container portfolio__container">
-            {data.map(({ id, image, title, desc, github, demo }) => {
-              return (
-                <article key={id} className='portfolio__item'>
-                  <div className="portfolio__item-image">
-                    {/*<img src={image} alt={title} />}*/}
-                  </div>
-                  <h3>{title}</h3>
-                  <p>{desc}</p>
-                  <div className="portfolio__item-cta">
-                    <a href={github} className='btn' target='_blank' rel="noreferrer">
-                      Github
-                    </a>
-                    {demo && demo.trim() !== '' && (
-                      <a href={demo} className='btn' target='_blank' rel="noreferrer">
-                        Live Demo
-                      </a>
-                    )}
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </section>
-      );
-    };
+  return (
+    <section id='portfolio'>
+      <h2>Projects</h2>
+
+      <div className="container portfolio__container">
+        {data.map(({ id, image, title, desc, github, demo }) => {
+          return (
+            <article key={id} className='portfolio__item'>
+              <div className="portfolio__item-image">
+                {/*<img src={image} alt={title} />}*/}
+              </div>
+              <h3>{title}</h3>
+              <p>{desc}</p>
+              <div className="portfolio__item-cta">
+                {github && (
+                  <a href={github} className='btn' target='_blank' rel="noreferrer">
+                    Github
+                  </a>
+                )}
+                {demo && demo.trim() !== '' && (
+                  <a href={demo} className='btn' target='_blank' rel="noreferrer">
+                    Live Demo
+                  </a>
+                )}
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  );
+};
+
     
     export default Projects;
