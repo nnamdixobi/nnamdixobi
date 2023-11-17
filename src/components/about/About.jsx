@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import image from '../../assets/aboutnew.JPG'
+import image from '../../assets/aboutnew3.JPG'
 import FadeInSection from '../FadeInSection'
 
 const about = () => {

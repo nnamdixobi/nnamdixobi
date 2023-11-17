@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../assets/Nnamdi Ikenna-Obi - Resume - 10.25.2023.pdf'
+import resume from '../../assets/Resume - Nnamdi Ikenna-Obi - 11.16.2023.pdf'
 
 const CTA = () => {
   return (
