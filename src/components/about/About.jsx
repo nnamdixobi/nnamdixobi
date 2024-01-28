@@ -41,7 +41,7 @@ const about = () => {
             </div>
 
             <p>
-            I am a graduate in Computer Science from the Samuel Ginn College of Engineering at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I have experience working as an undergraduate research assistant for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center. Additionally, I previously served as the president of the Auburn 
+            I am a graduate in Computer Science from the Samuel Ginn College of Engineering at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I have experience working as an undergraduate research software engineer for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center. Additionally, I previously served as the president of the Auburn 
             University Web Development Club and Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software development, particularly in web and mobile
              applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in 
              data science, cybver security and artificial intelligence.

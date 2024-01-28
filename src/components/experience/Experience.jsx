@@ -11,7 +11,7 @@ const experience = () => {
           <div className = "experience__header">
           <h2>Auburn University Program Understanding Lab</h2>
           <h2><b>Research Software Engineer</b></h2>
-          <h2><i>May 2023 - Present</i></h2>
+          <h2><i>May 2023 - December 2023</i></h2>
           </div>
           <div className = "experience__content">
             
@@ -30,7 +30,7 @@ const experience = () => {
           <div className="experience__header">
           <h2>Auburn University Biggio Center</h2>
           <h2><b>Learning Consultant</b></h2>
-          <h2><i>June 2022 - Present</i></h2>
+          <h2><i>June 2022 - December 2023</i></h2>
           </div>
           <div className = "experience__content">
             
