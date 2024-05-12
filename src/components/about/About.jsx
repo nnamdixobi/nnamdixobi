@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import image from '../../assets/aboutnew3.JPG'
 import IMG_2821 from '../../assets/IMG_2821.JPG'
 import FadeInSection from '../FadeInSection'
 
@@ -14,11 +13,9 @@ const about = () => {
     "SQL",
     "PHP",
     "Java",
-    "C++",
-    "C",
+    "C/C++",
     "C#",
     "AWS Cloud",
-    "etc."
     
   ];
 
@@ -47,10 +44,12 @@ const about = () => {
             </div>
 
             <p>
-            I am an experienced Computer Science Graduate from the Samuel Ginn College of Engineering at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn University</a>. I have experience working as a volunteer software engineer for One Community Global, an undergraduate research software engineer for the Samuel Ginn College of Engineering at Auburn University and as a learning consultant for the Auburn University Biggio Center. Additionally, I previously served as the president of the Auburn 
-            University Web Development Club and Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software development, particularly in web and mobile
-             applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in 
-             data science, cybver security and artificial intelligence.
+            I am an experienced Computer Science Graduate from the Samuel Ginn College of Engineering at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn 
+            University</a>. I have experience working as a Software Engineer for the One Community Global Non-Profit, an Undergraduate Research Software Engineer for the Samuel 
+            Ginn College of Engineering at Auburn University and as a learning consultant at the Auburn University Biggio Center. Additionally, I previously served as the 
+            president of the Auburn University Web Development Club and Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software 
+            development, particularly in web and mobile applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in Data Science, 
+            Database Management, Cloud Computing, Computer Networking Cyber Security and Artificial Intelligence.
             </p>
             {"Here are some of the main technologies I work with:"}
               <ul className="tech-stack">
@@ -65,7 +64,7 @@ const about = () => {
 
               <p>
                 Outside of work I am interested in following the developments of science & technology. I also enjoy 
-                working out, watching sports, music & anime, especially one piece.
+                working out, watching sports, music & anime, especially "One Piece".
               </p>
 
 
