@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import headshot from '../../assets/headernew.JPG'
+import IMG_2821 from '../../assets/IMG_2821.JPG'
 import Socials from './Socials'
 
 
