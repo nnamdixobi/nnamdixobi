@@ -44,12 +44,11 @@ const about = () => {
             </div>
 
             <p>
-            I am an experienced Computer Science Graduate from the Samuel Ginn College of Engineering at {"  "}<a href="https://www.auburn.edu/" target = "_blank">Auburn 
-            University</a>. I have experience working as a Software Engineer for the One Community Global Non-Profit, an Undergraduate Research Software Engineer for the Samuel 
-            Ginn College of Engineering at Auburn University and as a learning consultant at the Auburn University Biggio Center. Additionally, I previously served as the 
-            president of the Auburn University Web Development Club and Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software 
-            development, particularly in web and mobile applications, where creativity and problem-solving intersect. Furthermore, I have a keen interest in Data Science, 
-            Database Management, Cloud Computing, Computer Networking Cyber Security and Artificial Intelligence.
+            I am a Software Engineer with a Computer Science degree from the Samuel Ginn College of  Engineering at <a href="https://www.auburn.edu/" target="_blank">Auburn University</a>. 
+            I have experience in Software Engineering, Database Management, Research, IT and Consulting roles. Additionally, while in college I helped start and served as a co-leader of the Auburn University Web Development Club
+            and served as Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software development, particularly in web and mobile applications, where
+            creativity and problem-solving intersect. Furthermore, I have a keen interest in Data Science, Database Management, Cloud Computing, Computer Networking, Cyber Security,
+            and Artificial Intelligence.
             </p>
             {"Here are some of the main technologies I work with:"}
               <ul className="tech-stack">
@@ -63,8 +62,8 @@ const about = () => {
               </ul>
 
               <p>
-                Outside of work I am interested in following the developments of science & technology. I also enjoy 
-                working out, watching sports, music & anime, especially "One Piece".
+                Outside of work I love keeping up with the developments of science & technology. I also enjoy 
+                working out, watching sports, listening to music & watching anime, with my favorite being <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank">"One Piece"</a>.
               </p>
 
 
