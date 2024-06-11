@@ -1,7 +1,8 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 2.5rem;
+    justify-content: center; /* This centers the items */
 }
 
 .portfolio__container p {
@@ -14,6 +15,9 @@
     border-radius: 2rem;
     border: 1px solid white;
     transition: var(--transition);
+    flex: 1 1 calc(33.333% - 2.5rem); /* 3 items per row, accounting for the gap */
+    max-width: calc(33.333% - 2.5rem); /* Ensures items don't grow larger than this */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
 
 .portfolio__item:hover {
@@ -41,32 +45,20 @@
 
 .btn:hover {
     background-color: white;
-  }
+}
 
- /*=====================  Media Queries (Medium Screen)   ====================*/
- @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+/*=====================  Media Queries (Medium Screen) ====================*/
+@media screen and (max-width: 1024px) {
+    .portfolio__item {
+        flex: 1 1 calc(50% - 1.2rem); /* 2 items per row */
+        max-width: calc(50% - 1.2rem);
     }
+}
 
-    
-  }
-    
-    /*=====================  Media Queries (Small Screen)   ====================*/
-    @media screen and (max-width: 600px) {
-
-        .portfolio__container {
-            grid-template-columns:1fr;
-            gap: 1rem;
-        }
-    
-    
-    
-      
+/*=====================  Media Queries (Small Screen) ====================*/
+@media screen and (max-width: 600px) {
+    .portfolio__item {
+        flex: 1 1 100%; /* 1 item per row */
+        max-width: 100%;
     }
-  
-
-
-
-
+}

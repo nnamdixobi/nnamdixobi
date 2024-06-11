@@ -35,13 +35,26 @@ const data = [
     github: 'https://github.com/nnamdixobi/Web-Dev-Club/tree/apod',
     demo: 'https://nnamdixobis-apod.netlify.app/'
   },
+  
   {
     id: 5,
     //image: IMG4,
     title: "Nnamdi's Chat Room",
     desc: 'Developed a chat room using React JS and Firebase for authentication and data storage ',
     demo: 'https://nnamdis-chat-room.netlify.app/'
+  },
+
+  {
+    id: 6,
+    //image: IMG4,
+    title: "Devine Touch Website",
+    desc: 'Created a hair booking site for a friend and customer using HTML, CSS and Javacript ',
+    github: 'https://github.com/nnamdixobi/DevineTouch',
+    demo: 'https://devinetouch.netlify.app/'
   }
+
+
+  
 ]
 
 

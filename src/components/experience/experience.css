@@ -1,97 +1,101 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.experience__card ul {
+  list-style: none; /* Remove default list style */
+  padding-left: 0; /* Remove default list padding */
+}
+
+.experience__card li {
+  position: relative; /* To position the "⇒" character */
+  padding-left: 20px; /* Add some space for the "⇒" character */
+  margin-bottom: 0.5rem; /* Adjust spacing between list items */
+}
+
+.experience__card li::before {
+  content: "⇒";
+  color: whitesmoke;
+  position: absolute;
+  left: 0;
+}
+
+.experience__container > div {
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  transition: var(--transition);
+}
+
+.experience__container > div:hover {
+  background: #2980b9;
+  border-color: transparent;
+  transform: translateY(-10px);
+  transition: var(--transition);
+  cursor: default;
+}
+
+.experience__container > div h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.experience__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.experience__header {
+  margin-bottom: 1rem;
+}
+
+.experience__header h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Center a single experience card in the last row if it's alone */
+.experience__container:after {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.experience__container > .experience__card:nth-child(odd):last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+/*=====================  Media Queries (Medium Screen)   ====================*/
+@media screen and (max-width: 1024px) {
+  .experience__container {
+      grid-template-columns: 1fr;
   }
 
-  .experience__card ul {
-    list-style: none; /* Remove default list style */
-    padding-left: 0; /* Remove default list padding */
-  }
-
-  .experience__card li {
-    position: relative; /* To position the "⇒" character */
-    padding-left: 20px; /* Add some space for the "⇒" character */
-    margin-bottom: 0.5rem; /* Adjust spacing between list items */
-  }
-  
-  .experience__card li::before {
-    content: "⇒";
-    color: whitesmoke;
-    position: absolute;
-    left: 0;
-  }
-
-  .experience__container > div{
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid white;
-    transition: var(--transition);
-  }
-
-  .experience__container > div:hover{
-    background: #2980b9;
-    border-color: transparent;
-    transform: translateY(-10px);
-    transition: var(--transition);
-    cursor: default;
-  }
-
-  .experience__container > div h2{
-    text-align: center;
-    margin-bottom: 1rem;
+  .experience__container > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
   }
 
   .experience__content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    
+      gap: 1rem;
+  }
+}
+
+/*=====================  Media Queries (Small Screen)   ====================*/
+@media screen and (max-width: 600px) {
+  .experience__container {
+      gap: 1rem;
   }
 
-  .experience__header {
-    margin-bottom: 1rem;
+  .experience__container > div {
+      width: 100%;
+      padding: 2rem;
+      margin: 0 auto;
   }
-  
-  .experience__header h2 {
-    margin: 0;
-    font-weight: bold;
-  }
-
-  /*=====================  Media Queries (Medium Screen)   ====================*/
-@media screen and (max-width: 1024px) {
-    .experience__container{
-        grid-template-columns: 1fr;
-    }
-
-    .experience__container > div{
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience__content{
-        gap: 1rem;
-    }
-    
-  }
-    
-    /*=====================  Media Queries (Small Screen)   ====================*/
-    @media screen and (max-width: 600px) {
-
-        .experience__container {
-            gap: 1rem;
-        }
-
-        .experience__container > div{
-            width: 100%;
-            padding: 2rem;
-            margin: 0 auto;
-        }
-    
-    
-    
-      
-    }
-  
+}

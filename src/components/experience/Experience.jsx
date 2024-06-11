@@ -5,20 +5,40 @@ const Experience = () => {
   return (
     <section id="experience">
       <h2> Work Experience </h2>
+      
+
+      
+
+
       <div className="experience__container">
+
       <div className="experience__card">
           <div className="experience__header">
+            <h2>FICOM Technologies</h2>
+            <h2><b>Front-End Developer</b></h2>
+            <h2><i>Feb 2024 - Present</i></h2>
+          </div>
+          <div className="experience__content">
+            <ul>
+              <li>Developed user interface components for the FICOM application, creating a visually appealing and functional UI using React JS and the Material UI library to bring design mockups to life.</li>
+              <li>Enhanced user experience by implementing key front-end features focusing on responsive design, intuitive navigation and interactive elements to ensure an engaging user experience.</li>
+              <li>Collaborated closely with the backend team to ensure seamless integration between the frontend and backend systems, addressing technical challenges and synchronizing data flow and functionality.</li>
+            </ul>        
+          </div>
+        </div>
+
+        <div className="experience__card">
+          <div className="experience__header">
             <h2>One Community Global</h2>
-            <h2><b>Software Engineer Intern</b></h2>
+            <h2><b>Software Engineer</b></h2>
             <h2><i>January 2024 - May 2024</i></h2>
           </div>
           <div className="experience__content">
             <ul>
-              <li>Conducted over 10 high-priority Pull Request reviews weekly.</li>
-              <li>Provided detailed feedback and suggestions on GitHub pull requests after testing.</li>
-              <li>Reviewed and approved GitHub pull requests, contributing to the seamless integration of high-quality code.</li>
-              <li>Contributed towards the development of the Highest Good Network application, leveraging JavaScript and the React JS framework to implement key features and enhancements.</li>
+              <li>Developed key features for One Community’s Highest Good Network Application using JavaScript and the React JS framework.</li>
+              <li>Seamlessly integrated new features, improved application performance and enhanced code quality, positively impacting user experience and the efficiency of the HGN application.</li>
               <li>Collaborated with team members to address technical challenges and optimize performance.</li>
+              <li>Reviewed and provided constructive feedback on GitHub pull requests, ensuring high-quality code integration.</li>
             </ul>        
           </div>
         </div>
@@ -32,10 +52,10 @@ const Experience = () => {
           </div>
           <div className="experience__content">
             <ul>
-              <li>Contributed to the development of Oxide, a binary analysis framework for performing analysis of executable code, by developing new plugins and modules, expanding its functionality.</li>
-              <li>Strengthened system reliability with comprehensive Python unit tests for previously untested modules.</li>
-              <li>Improved Oxide's documentation for improved user guidance.</li>
-              <li>Collaborated seamlessly with a research and development team using Git for version control.</li>
+              <li>Contributed to the development of Oxide, a complex binary analysis framework for performing analysis of executable code.</li>
+              <li>Expanded Oxides functionality by developing new plugins and modules using python, strengthened system reliability with unit tests, and improved the frameworks documentation.</li>
+              <li>Strengthened Oxides system reliability by writing comprehensive Python unit tests for each system module.</li>
+              <li>Revised and improved Oxides documentation, making the framework more accessible and effective for users.</li>
             </ul>        
           </div>
         </div>
@@ -48,10 +68,10 @@ const Experience = () => {
           </div>
           <div className="experience__content">
             <ul>
-              <li>Provided top-tier support for faculty and students in using classroom technology.</li>
-              <li>Demonstrated exceptional problem-solving skills and meticulous attention to detail in resolving IT-related issues.</li>
-              <li>Collaborated seamlessly with OIT Classroom Support, facilitating swift resolution of complex technical issues.</li>
-              <li>Delivered technical support and troubleshooting for the prestigious SRFIDIC annual conference held at Auburn University in 2023.</li>
+              <li>Supported faculty and students in using various classroom technologies crucial for effective teaching and learning.</li>
+              <li>Resolved IT issues related to classroom technologies, providing prompt and efficient support. </li>
+              <li>Managed and updated problem tickets in ServiceNow to reflect their status accurately.</li>
+              <li>Maintained high levels of user satisfaction, and contributed to the smooth operation of the Biggio Center’s IT services.</li>
             </ul>        
           </div>
         </div>
