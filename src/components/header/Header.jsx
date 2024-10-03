@@ -20,7 +20,7 @@ export const Header = () => {
 
         <div className = "me">
 
-        <img src = {headshot} alt = " " />
+        <img src = {IMG_2821} alt = " " />
 
         </div>
 

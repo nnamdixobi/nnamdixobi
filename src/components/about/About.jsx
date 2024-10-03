@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import IMG_2821 from '../../assets/IMG_2821.JPG'
+import image from '../../assets/image.jpg'
 import FadeInSection from '../FadeInSection'
 
 const about = () => {
@@ -28,7 +29,7 @@ const about = () => {
 
         <div className = "about__me">
           <div className="about__me-image">
-            <img src = {IMG_2821} alt = "me" />
+            <img src = {image} alt = "me" />
 
           </div>
 
@@ -44,11 +45,13 @@ const about = () => {
             </div>
 
             <p>
-            I am a Software Engineer with a Computer Science degree from the Samuel Ginn College of  Engineering at <a href="https://www.auburn.edu/" target="_blank">Auburn University</a>. 
-            I have experience in Software Engineering, Database Management, Research, IT and Consulting roles. Additionally, while in college I helped start and served as a co-leader of the Auburn University Web Development Club
-            and served as Secretary for the Association of Computing Machinery at Auburn University. My passion lies in software development, particularly in web and mobile applications, where
-            creativity and problem-solving intersect. Furthermore, I have a keen interest in Data Science, Database Management, Cloud Computing, Computer Networking, Cyber Security,
-            and Artificial Intelligence.
+
+I am currently a Technical Lead at iCode, with a degree in Computer Science from the Samuel Ginn College of Engineering at  
+<a href="https://www.auburn.edu/" target="_blank"> Auburn University</a>. I have diverse experience across Software Engineering, 
+Database Management, Research, IT, and Consulting roles. My passion lies in software development, especially in web and mobile 
+applications, where creativity and problem-solving meet. Additionally, I have a strong interest in Data Science, Cloud Computing, 
+Computer Networking, Cyber Security, and Artificial Intelligence.
+          
             </p>
             {"Here are some of the main technologies I work with:"}
               <ul className="tech-stack">

@@ -14,6 +14,23 @@ const Experience = () => {
 
       <div className="experience__card">
           <div className="experience__header">
+            <h2>iCode Pearland</h2>
+            <h2><b>Technical Lead</b></h2>
+            <h2><i>Aug 2024 - Present</i></h2>
+          </div>
+          <div className="experience__content">
+            <ul>
+              <li>Led Programming and STEM instruction for students, fostering hands-on learning enviroment.</li>
+              <li>Developed and refined curriculum and projects, tailored to various age groups and skill levels.</li>
+              <li>Taught programming languages and platforms including C#, HTML, CSS, JavaScript, PHP, SQL, Scratch, and block coding.</li>
+              <li>Mentored and guide students in problem-solving and creative coding techniques.</li>
+              <li>Collaborated with the teaching team to improve lesson plans and ensure an engaging experience for all students.</li>
+            </ul>        
+          </div>
+        </div>
+
+      <div className="experience__card">
+          <div className="experience__header">
             <h2>FICOM Technologies</h2>
             <h2><b>Front-End Developer</b></h2>
             <h2><i>Feb 2024 - Present</i></h2>
@@ -30,8 +47,8 @@ const Experience = () => {
         <div className="experience__card">
           <div className="experience__header">
             <h2>One Community Global</h2>
-            <h2><b>Software Engineer</b></h2>
-            <h2><i>January 2024 - May 2024</i></h2>
+            <h2><b>Volunteer Software Engineer</b></h2>
+            <h2><i>January 2024 - Aug 2024</i></h2>
           </div>
           <div className="experience__content">
             <ul>

@@ -13,22 +13,17 @@ const data = [
     github: 'https://github.com/nnamdixobi/nnamdixobi',
     demo: 'https://nnamdixobi.com/'
   },
+
   {
     id: 2,
-    //image: IMG2,
-    title: 'Store Management System',
-    desc: 'Developed a store management system using Java, Java Swing for the GUI and SQLite for the database.',
-    github: 'https://github.com/nnamdixobi/Store-Management-System'
+    //image: IMG4,
+    title: "Pyke Solutions Consulting Limited",
+    desc: 'Designed and developed a website for a full-service accounting firm. ',
+    demo: 'https://pykesolutions.org/'
   },
+  
   {
     id: 3,
-    //image: IMG3,
-    title: 'Web Server and Microservices',
-    desc: 'Designed and implemented an enhanced online shopping system with a RESTful web server and integrated microservices. Utilized Java for server-side development, SQLite for database management, and Gson for JSON operations.',
-    github: 'https://github.com/nnamdixobi/Webserver-and-Microservices'
-  },
-  {
-    id: 4,
     //image: IMG4,
     title: 'Astronomy Picture Of The Day (APOD) Website',
     desc: 'Enhanced NASA’s Astronomy Picture of the Day (APOD) website by integrating their open API with JavaScript, offering users real time access to captivating astronomical content.',
@@ -37,7 +32,7 @@ const data = [
   },
   
   {
-    id: 5,
+    id: 4,
     //image: IMG4,
     title: "Nnamdi's Chat Room",
     desc: 'Developed a chat room using React JS and Firebase for authentication and data storage ',
@@ -45,13 +40,13 @@ const data = [
   },
 
   {
-    id: 6,
+    id: 5,
     //image: IMG4,
-    title: "Devine Touch Website",
+    title: "Devine Touch",
     desc: 'Created a hair booking site for a friend and customer using HTML, CSS and Javacript ',
     github: 'https://github.com/nnamdixobi/DevineTouch',
     demo: 'https://devinetouch.netlify.app/'
-  }
+  },
 
 
   
