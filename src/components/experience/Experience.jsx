@@ -14,9 +14,25 @@ const Experience = () => {
 
       <div className="experience__card">
           <div className="experience__header">
+            <h2>Auburn University Libraries Innovation & Research Commons</h2>
+            <h2><b>Graduate Assistant</b></h2>
+            <h2><i>Feb 2024 - Present</i></h2>
+          </div>
+          <div className="experience__content">
+            <ul>
+              <li>Oversee operations and user engagement in the Virtual Reality (VR) area.</li>
+              <li>Maintain and troubleshoot VR headsets to ensure optimal performance.</li>
+              <li>Provide hands-on assistance and technical support for users engaging with VR experiences.</li>
+              <li>OConduct outreach and promotional activities to increase awareness and participation in the VR area.</li>
+            </ul>        
+          </div>
+        </div>
+
+      <div className="experience__card">
+          <div className="experience__header">
             <h2>iCode Pearland</h2>
             <h2><b>Technical Lead</b></h2>
-            <h2><i>Aug 2024 - Present</i></h2>
+            <h2><i>Aug 2024 - Dec 2024</i></h2>
           </div>
           <div className="experience__content">
             <ul>
