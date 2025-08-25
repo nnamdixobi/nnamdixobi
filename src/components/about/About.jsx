@@ -47,11 +47,14 @@ const about = () => {
 
             <p>
 
-I am a Computer Science and Software Engineering Graduate Student at <a href="https://www.auburn.edu/" target="_blank"> Auburn University</a>. I currently work as a Graduate Assistant for the Auburn University Libraries Innovation & Research Commons where I assist in managing the Virtual Reality Area.  
+I am a Computer Science and Software Engineering Graduate Student at <a href="https://www.auburn.edu/" target="_blank"> Auburn University</a> with 
+a concentration in Artificial Intelligence and Cyber Security. I currently work as a Graduate Assistant for the Auburn University Libraries 
+Innovation & Research Commons where I assist in managing the Virtual Reality Area and contribute to the development of virtual reality 
+applications used in research.  
  I have diverse experience across Software Engineering, 
-Database Management, Research, IT, and Consulting roles. My passion lies in software development, especially in web and mobile 
-applications, where creativity and problem-solving meet. Additionally, I have a strong interest in Data Science, Cloud Computing, 
-Computer Networking, Cyber Security, and Artificial Intelligence.
+Database Management, Research, IT, and Consulting roles. My passion lies in software development, Artificial Intelligence and Cyber Security, 
+where creativity and problem-solving intersect. Additionally, I have a strong interest in Data Science, Cloud Computing, 
+and Computer Networking.
           
             </p>
             {"Here are some of the main technologies I work with:"}
@@ -67,7 +70,7 @@ Computer Networking, Cyber Security, and Artificial Intelligence.
 
               <p>
                 Outside of work I love keeping up with the developments of science & technology. I also enjoy 
-                working out, watching and playing sports, listening to music & watching anime, with my favorite being <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank">"One Piece"</a>.
+                working out, watching and playing sports & listening to music.
               </p>
 
 

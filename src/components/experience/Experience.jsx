@@ -23,7 +23,8 @@ const Experience = () => {
               <li>Oversee operations and user engagement in the Virtual Reality (VR) area.</li>
               <li>Maintain and troubleshoot VR headsets to ensure optimal performance.</li>
               <li>Provide hands-on assistance and technical support for users engaging with VR experiences.</li>
-              <li>OConduct outreach and promotional activities to increase awareness and participation in the VR area.</li>
+              <li>Conduct outreach and promotional activities to increase awareness and participation in the VR area.</li>
+              <li>Contriubte to the development of virtual reality applications using unity and C# that support research</li>
             </ul>        
           </div>
         </div>

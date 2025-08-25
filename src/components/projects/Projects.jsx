@@ -39,15 +39,6 @@ const data = [
     demo: 'https://nnamdis-chat-room.netlify.app/'
   },
 
-  {
-    id: 5,
-    //image: IMG4,
-    title: "Devine Touch",
-    desc: 'Created a hair booking site for a friend and customer using HTML, CSS and Javacript ',
-    github: 'https://github.com/nnamdixobi/DevineTouch',
-    demo: 'https://devinetouch.netlify.app/'
-  },
-
 
   
 ]
