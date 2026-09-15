@@ -8,7 +8,7 @@ export const profile = {
   phoneHref: "+13342755814",
   github: "https://github.com/nnamdixobi",
   linkedin: "https://www.linkedin.com/in/nnamdixobi/",
-  resume: "/resume.pdf",
+  resume: "/Resume.pdf",
   title: "Software Engineer",
   specialties: [
     "Cybersecurity",
