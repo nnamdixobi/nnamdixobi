@@ -61,9 +61,9 @@ export function About() {
       title="About"
       description=""
     >
-      <div className="grid items-start gap-10 lg:grid-cols-[auto_1fr]">
-        {/* Left: Profile Image — shown only on lg+ in its normal side position */}
-        <ProfileImage className="hidden lg:block" />
+      <div className="grid items-start gap-10 sm:grid-cols-[auto_1fr]">
+        {/* Left: Profile Image — shown only on sm+ (tablet/laptop) in its normal side position */}
+        <ProfileImage className="hidden sm:block" />
 
         {/* Right: About Content */}
         <div>
@@ -98,8 +98,8 @@ export function About() {
               infrastructure, computer networking, and immersive technologies.
             </p>
 
-            {/* Mobile/tablet only: image dropped in between paragraphs */}
-            <div className="lg:hidden">
+            {/* Phone only: image dropped in between paragraphs */}
+            <div className="sm:hidden">
               <ProfileImage className="my-2" />
             </div>
 
